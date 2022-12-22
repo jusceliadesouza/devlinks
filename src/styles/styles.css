@@ -80,3 +80,15 @@ main {
 .links a:hover {
   background: none;
 }
+
+footer {
+  padding: 1.5rem;
+}
+
+footer a {
+  color: #f0f0f0;
+}
+
+footer a:hover {
+  opacity: .75;
+}
