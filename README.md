@@ -8,9 +8,9 @@ Com objetivo de revisar os conceitos de HTML, CSS e Javascript, esse projeto con
 
 Você pode conferir o layout no Figma por [aqui](https://www.figma.com/file/vHffbZCVm9cK7CcGALETqE/DevLinks-(Community)?node-id=0%3A1&t=TKeP02rvvvwELi4D-0). 
 
-<!-- ### Deploy
+### Deploy
 
-O DevLinks está hospedado na plataforma Vercel. Você pode conferir o funcionamento do projeto por [aqui](#deploy). -->
+O DevLinks está hospedado na plataforma Vercel. Você pode conferir o funcionamento do projeto por [aqui](https://devlinks-azure.vercel.app/).
 
 ## Techs
 
