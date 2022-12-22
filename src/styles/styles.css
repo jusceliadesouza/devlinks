@@ -22,7 +22,10 @@ body {
   width: 360px;
   height: 712px;
 
-  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .profile {
