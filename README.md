@@ -1,6 +1,6 @@
 # DevLinks
 
-Com objetivo de revisar os conceitos de HTML, CSS e Javascript, esse projeto consistem em desenvolver um agregador de links, ou linktrees, para devs.
+Com objetivo de revisar os conceitos de HTML, CSS e Javascript, esse projeto consistem em desenvolver um agregador de links, ou linktree, para devs.
 
 ## Projeto
 
