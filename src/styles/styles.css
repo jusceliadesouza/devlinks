@@ -15,6 +15,7 @@ body * {
 
 .container {
   width: 360px;
+  padding: 0 1.5rem;
   margin: 3.5rem auto 0px;
 }
 
@@ -74,7 +75,33 @@ main {
   background-color: rgba(255, 255, 255, .05);
   border: 1px solid #f0f0f0;
 
-  transition: background .2s ;
+  transition: background .2s;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+
+  padding: 1.5rem 0;
+
+  font-size: 1.5rem;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+}
+
+.social a:hover {
+  border-radius: 50%;
+  border: none;
+
+  background-color: rgba(255, 255, 255, .2);
+
+  transition: background .2s;
 }
 
 footer {
