@@ -6,7 +6,7 @@
 
 :root {
   --text-color: #F0F0F0;
-  --bg-url: url('../assets/bd-darkMobile.png');
+  --bg-url: url('../assets/bg-mobile-dark.png');
   --stroke-color: rgba(255, 255, 255, .5);
   --surface-color: rgba(255, 255, 255, .1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -15,7 +15,7 @@
 }
 
 .light {
-  --bg-url: url('../assets/bd-mobile.png');
+  --bg-url: url('../assets/bg-mobile-light.png');
   --text-color: black;
   --stroke-color: rgba(0, 0, 0, .5);
   --surface-color: rgba(0, 0, 0, .05);
@@ -26,6 +26,11 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body * {
@@ -37,7 +42,7 @@ body * {
   width: 100%;
   max-width: 36.75rem;
   padding: 0 1.5rem;
-  margin: 3.5rem auto 0px;
+  /* margin: 3.5rem auto 0px; */
 }
 
 .profile {
@@ -175,4 +180,16 @@ footer {
 
 footer a:hover {
   opacity: .75;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(../assets/bg-desktop-dark.jpg);
+  }
+
+  .light {
+    --bg-url: url(../assets/bg-desktop-light.jpg);
+  }
 }
