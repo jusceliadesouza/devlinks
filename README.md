@@ -9,9 +9,9 @@
 - [Techs](#techs)
 - [Licença](#licença)
 
-Com objetivo de revisar os conceitos de HTML, CSS e Javascript, esse projeto consiste em um agregador de links, ou linktree, para devs.
-
 ## Projeto
+
+Esse projeto consiste em um agregador de links, ou linktree, para devs e tem o objetivo de revisar os conceitos de HTML, CSS e Javascript.
 
 ### Layout
 
@@ -19,7 +19,7 @@ Você pode conferir o layout desse projeto por [aqui](https://www.figma.com/file
 
 ### Deploy
 
-O DevLinks está hospedado na plataforma Vercel. Você pode conferir o funcionamento do projeto por [aqui](#deploy).
+O DevLinks está hospedado na plataforma Vercel. Você pode conferir o funcionamento do projeto por [aqui](https://jusceliadesouza-devlinks.vercel.app/).
 
 ## Features
 
